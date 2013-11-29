@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JSFFlowViewLayout version="1.0">
+  <Drawing gridVisible="true" snapOn="true" />
+  <JSFFlowResource path="*" location="380,160" dimension="49,36" />
+  <JSFFlowResource path="/registerPage.jsp" location="480,30" dimension="143,36" />
+  <JSFFlowResource path="" location="330,30" dimension="36,36" />
+  <JSFFlowNavigationCase id="*,/registerPage.jsp,registerPage,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="404,160" />
+      <AbsolutePoint location="404,48" />
+      <AbsolutePoint location="480,48" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/registerPage.jsp,/registerPage.jsp,fail,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="551,30" />
+      <AbsolutePoint location="551,-7" />
+      <AbsolutePoint location="660,-7" />
+      <AbsolutePoint location="660,33" />
+      <AbsolutePoint location="623,33" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/registerPage.jsp,,success,&lt;empty&gt;" routingType="1">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="551,66" />
+      <AbsolutePoint location="551,103" />
+      <AbsolutePoint location="348,103" />
+      <AbsolutePoint location="348,66" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+</JSFFlowViewLayout>
+

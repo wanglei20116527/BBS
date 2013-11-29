@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{
+	margin:0px;
+	padding:0px;
+	min-width:1200px;
+	font:normal 13px "helvetica",arial,sans-serif;
+	background:#F4F4F6;
+}
+
+div#header{
+	float:left;
+	width:100%;
+	background-image:url("../images/sprite_header.jpg");
+	background-repeat:no-repeat;
+}
+
+div#header > div#logo{
+	display:inline-block;
+	float:left;
+	margin:0px;
+	margin-left:100px;
+}
+
+div#header > div:nth-child(2){
+	display:inline-block;
+	float:right;
+	margin-right:100px;
+	padding:0px;
+	width:615px;
+}
+
+div#header > div:nth-child(2) > div:first-child{
+	float:right;
+	margin-top:23px;
+	margin-bottom:0px;
+	padding:0px;
+	height:28px;
+	width:100%;
+	border-width:0px 0px 1px 0px;
+	background: url(../images/header_border.png) repeat-x bottom;
+}
+
+div#header > div:nth-child(2) > div#subModuleNavigation{
+	float:right;
+	width:100%;
+	margin:0px;
+	margin-top:6px;
+	padding:0px;
+	background:url(../images/sprite_nav.jpg) 0 0 repeat-x;
+	border:1px solid #1f2124;
+	height:43px;
+	min-width:615px;
+	border-radius:5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div#header > div:nth-child(2) > div a{
+	text-decoration:none;
+}
+
+div#header > div:nth-child(2) > div:first-child a{
+	float:right;
+	position:relative;
+	margin:0px;
+	margin-left:10px;
+    font:normal 13px "helvetica",arial,sans-serif;
+}
+
+div#header > div:nth-child(2) > div:first-child a#signIn{
+	position:relative;
+	top:4px;
+	color:#ACB5C3;
+}
+
+div#header > div:nth-child(2) > div:first-child a#signIn:hover{
+	color:white;
+}
+
+div#header > div:nth-child(2) > div:first-child a#register{
+	background:#7ba60d;
+	color:#fff;
+	display:inline-block;
+	padding:3px 8px;
+	border:1px solid #7ba60d;
+	-webkit-box-shadow:inset 0px 1px 0 rgba(255,255,255,0.2),0px 1px 4px rgba(0,0,0,0.4);
+	-moz-box-shadow:inset 0px 1px 0 rgba(255,255,255,0.2),0px 1px 4px rgba(0,0,0,0.4);
+	box-shadow:inset 0px 1px 0 rgba(255,255,255,0.2),0px 1px 4px rgba(0,0,0,0.4);
+	text-shadow:0px 1px 2px rgba(0,0,0,0.3);
+	border-radius:3px;
+	-moz-border-radius:3px;
+}
+
+div#header > div:nth-child(2) > div#subModuleNavigation ul{
+	display:inline-block;
+	float:left;
+	height:100%;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	border-radius:5px 5px 3px 3px;
+}
+
+div#header > div:nth-child(2) > div#subModuleNavigation ul li{
+	display:inline-block;
+	float:left;
+	list-style:none;
+	padding:12px 0px 14px 0px;
+}
+
+div#header > div:nth-child(2) > div#subModuleNavigation ul li:hover{
+	background:url(../images/sprite_nav.jpg) 0 -43px repeat-x;
+	padding-bottom:14px;
+	color:#b1c0cd;
+}
+
+div#header > div:nth-child(2) > div#subModuleNavigation ul li:first-child{
+	border-radius:5px 0px 0px 3px;
+}
+
+div#header > div:nth-child(2) > div#subModuleNavigation ul li:last-child{
+	float:right;
+	border-radius:0px 5px 3px 0px;
+	padding:0px !important;
+	height:100%;
+}
+
+div#header > div:nth-child(2) > div#subModuleNavigation ul li span{
+	display:inline-block;
+	position:relative;
+	top:14px;
+	background:url(../images/sprite_icons.png) -32px -3px;
+	height:20px;
+	width:19px;
+	vertical-align:central;
+	
+}
+
+div#header > div:nth-child(2) > div#subModuleNavigation ul li a{	
+	color: #b1c0cd;
+	font-family:helvetica;
+	font-size:10pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:1px 1px 2px #181f26;	
+	padding:13px 13px 14px;
+}
+
+div#header > div:nth-child(2) > div#subModuleNavigation ul li a:hover{
+	color:white;
+}
+
+div#searchBox{
+	display:none;
+	float:right;
+	background:#1F2124;
+	border:1px solid #191919;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	box-shadow:0 0 3px rgba(0,0,0,0.3);
+	-moz-box-shadow:0 0 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,0.3);
+	padding:8px;
+	width: 281px;
+}
+
+div#searchBox div{
+	float:left;
+	position:relative;
+	background:#fff;
+	padding:0px;
+	width:230px;
+	height:26px;
+	line-height:25px;
+	border-radius:3px 0px 0px 3px;
+	-webkit-box-shadow:0px 2px 4px rgba(0,0,0,0.2);
+	-moz-box-shadow:0px 2px 4px rgba(0,0,0,0.2);
+	box-shadow:0px 2px 4px rgba(0,0,0,0.2);;
+}
+
+div#searchBox div input[type=text]{
+	position:relative;
+	top:6px;
+	font-size:12px;
+	border:0;
+	margin:0px;
+	margin-left:10px;
+	padding:0;
+	background:transparent;
+	width:130px;
+	outline:none;
+}
+
+div#searchBox div span#keyWord{
+	font-size:10px;
+	height:20px;
+	line-height:20px;
+	margin:3px 3px 3px 0;
+	padding:0 6px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	background:#eaeaea;
+	display:inline-block;
+	float:right;
+}
+
+div#searchBox > a#searchButton{
+	background:#7ba60d url(../images/search_icon.png) no-repeat 50%;
+	float:left;
+	padding:0;
+	border:0;
+	border:1px solid #7ba60d;
+	display:block;
+	width:26px;
+	height:24px;
+	-moz-border-radius:0 3px 3px 0;
+	-webkit-border-top-right-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-radius:0 3px 3px 0;
+	-webkit-box-shadow:inset 0px 1px 0 rgba(255,255,255,0.2);
+	-moz-box-shadow:inset 0px 1px 0 rgba(255,255,255,0.2);
+	box-shadow:inset 0px 1px 0 rgba(255,255,255,0.2);
+}
+
+div#searchBox > span{
+	width:16px;
+	height:16px;
+	background:url(../images/advanced_search.png) no-repeat right 50%;
+	display:inline-block;
+	margin:4px 0 4px 4px;
+}
+
+div#header > div#mainModuleNavigation{
+	float:right;
+	width:100%;
+	background:url(../images/bg.png);
+	height:78px;
+	overflow:hidden;
+	text-shadow:0 1px 0 #fff;
+	box-shadow:0 -2px 3px rgba(0,0,0,0.05) inset;
+	-moz-box-shadow:0 -2px 3px rgba(0,0,0,0.05) inset;
+	-webkit-box-shadow:0 -2px 3px rgba(0,0,0,0.05) inset;
+}
+
+div#header > div#mainModuleNavigation div:first-child{
+	display:inline-block;
+	position:relative;
+	top:28px;
+	margin:0px;
+	margin-left:110px;
+	text-shadow:0 1px 0 #fff;
+	color:#585858;
+	font:normal 20px trebuchet ms;
+}
+
+div#header > div#mainModuleNavigation div:nth-child(2){
+	display:inline-block;
+	float:right;
+	position:relative;
+	top:20px;
+	margin:0px;
+	margin-right:100px;
+}
+
+div#header > div#mainModuleNavigation div:nth-child(2) li{
+	display:inline-block;
+	float:right;
+	margin:0px;
+	margin-left:6px;
+	list-style:none;
+	width:96px;
+}
+
+div#header > div#mainModuleNavigation div:nth-child(2) li a{
+	text-decoration:none;
+	text-shadow:0 1px 0 #fff;
+	padding-right:1px;
+	text-shadow:0 1px 0 #fff;
+	color:#999;
+	font:normal 17px trebuchet ms;
+}
+
+div#header > div#mainModuleNavigation div:nth-child(2) li a:hover{
+	color:#333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

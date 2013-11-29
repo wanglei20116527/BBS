@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#registerPagebody{
+	float:left;
+	position:relative;
+	width:87%;
+	left:50%;
+	margin-left:-43.5%;
+	background: #fff;
+	margin-bottom: 25px;
+	padding: 20px 10px 10px 10px;
+	line-height: 120%;
+	box-shadow: 0 1px 2px #DBDBDB;
+	-webkit-box-shadow: 0 1px 2px #DBDBDB;
+	-moz-box-shadow: 0 1px 2px #DBDBDB;
+	background-color:white;
+}
+
+div#registerStepPrompt{
+	border-bottom: 1px solid #fff;
+	background:#DBE2EC;
+	overflow:hidden;
+	border-radius:6px;
+	margin-bottom:20px;
+}
+
+div#registerStepPrompt > span{
+	display:inline-block;
+	padding:0px 33px 0px 60px;
+	color:#323232;
+	background-image:url(../images/wizard_step_large.png);
+	background-repeat:no-repeat;
+	position:relative;
+	height:53px;
+}
+
+div#registerStepPrompt > span:first-child{
+	background-position:top right;
+	color:white;
+}
+
+div#registerStepPrompt > span:nth-child(2){
+	background-position:bottom right;
+}
+
+div#registerStepPrompt > span > span{
+	display:inline-block;
+	position:relative;
+	right:30px;
+	top:20px;
+	width:40px;
+	height:20px;
+	font-size:18px;
+}
+
+div.title{
+	background:#1F2124;
+	color:#fff;
+	padding:10px 10px 11px;
+	font-size:14px;
+	font-weight:300;
+	text-shadow:0 -1px 0 rgba(0,0,0,0.7);
+	-moz-border-radius:4px 4px 0 0;
+	-webkit-border-top-left-radius:4px;
+	-webkit-border-top-right-radius:4px;
+	border-radius:4px 4px 0 0;
+	-webkit-box-shadow:inset 0px 1px 0 rgba(255,255,255,0.15);
+	-moz-box-shadow:inset 0px 1px 0 rgba(255,255,255,0.15);
+	box-shadow:inset 0px 1px 0 rgba(255,255,255,0.15);
+	border-width:1px 1px 0 1px;
+	border-color:#1F2124;
+	border-style:solid;
+}
+
+div.registerPageContent{
+	margin:0px;
+	background:#C4CBD4;
+	padding:9px;
+}
+
+div.registerPageContent > form{
+	display:block;
+	background-color:#FFF;
+	border: 1px solid #a3b0c1;
+}
+
+div.registerPageContent > form > table{
+	display:block;
+	padding-top:20px;
+	
+}
+
+div.registerPageContent > form > table input{
+	display:inline-block;
+	float:left;
+	width:300px;
+	padding:4px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#848484 #c1c1c1 #e1e1e1 #c1c1c1;
+	background:#fff;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	font:normal 13px helvetica,arial,sans-serif;
+}
+
+div.registerPageContent > form > table input:focus{
+	border-color:#4e4e4e #7c7c7c #a3a3a3 #7c7c7c;
+	-webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.3);
+	-moz-box-shadow:0px 0px 5px rgba(0,0,0,0.3);
+	box-shadow:0px 0px 5px rgba(0,0,0,0.3);
+}
+
+div.registerPageContent > form > table input[type=submit]{
+	margin-top:20px;
+	width:125px;
+	background:#212121 url(../images/topic_button.png) repeat-x top;
+	border:1px solid #212121;
+	border-width:1px 1px 0 1px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	-moz-box-shadow:inset 0 1px 0 0 #5c5c5c,0px 2px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow:inset 0 1px 0 0 #5c5c5c,0px 2px 3px rgba(0,0,0,0.2);
+	box-shadow:inset 0 1px 0 0 #5c5c5c,0px 2px 3px rgba(0,0,0,0.2);
+	color:#fff;
+	text-shadow:0 -1px 0 #191919;
+	font:300 12px/1.3 Helvetica,Arial,sans-serif;
+	line-height:30px;
+	height:30px;
+	padding:0 10px;
+	text-align:center;
+	min-width:125px;
+	display:inline-block;
+	cursor:pointer;
+}
+
+div.registerPageContent > form > table tr{
+	display:block;
+	margin-bottom:10px;
+}
+
+div.registerPageContent > form > table td{
+	display:inline-block;
+}
+
+div.registerPageContent > form > table td:first-child{
+	width:185px;
+	padding-right:15px;
+	text-align:right;
+	vertical-align:top;
+	line-height:1.8;
+	font-size:18px;
+	text-shadow:0px -1px 0 rgba(0,0,0,0.3);
+}
+
+div.registerPageContent > form > table td:nth-child(2){
+	width:320px;
+}
+
+div.registerPageContent > form > table tr td:nth-child(2) span{
+	display:inline-block;
+	float:left;
+	font-size:12px;
+	color:#a4a4a4;
+}
+
+div.registerPageContent > form > table td:nth-child(3){
+	padding-top:6px;
+	vertical-align:top;
+}
+
+div.registerPageContent > form > table td:nth-child(3) > span{
+	display:none;
+	background-color:#ad2930;
+	color:#fff;
+	font-size:0.8em;
+	font-weight:bold;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	padding:3px 8px;
+}
+
+
+
+div.registerPageContent > hr{
+	display:block;
+	position:absolute;
+	bottom:94px;
+	width:95%;
+	border:1px solid #ebebeb;
+	border-width:1px 0 0 0;
+	clear:both;
+	margin:0px auto;
+}
